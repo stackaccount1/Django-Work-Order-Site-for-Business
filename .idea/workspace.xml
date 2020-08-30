@@ -14,7 +14,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.88899165">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.5">
+        <splitter split-orientation="horizontal" split-proportion="0.5552408">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
@@ -47,11 +47,11 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/wordorderapp/urls.py">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="527">
-                      <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+                      <caret line="31" selection-start-line="31" selection-end-line="31" />
                       <folding>
                         <element signature="e#0#32#0" expanded="true" />
                       </folding>
@@ -68,11 +68,11 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/wordorderapp/templates/wordorderapp/homepage1.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="85">
-                      <caret line="5" lean-forward="true" selection-end-line="25" />
+                    <state relative-caret-position="374">
+                      <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
                     </state>
                   </provider>
                 </entry>
@@ -98,8 +98,8 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/wordorderapp/static/wordorderapp/style.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="272">
-                      <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+                    <state relative-caret-position="-50">
+                      <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
                     </state>
                   </provider>
                 </entry>
@@ -126,11 +126,11 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/wordorderapp/templates/wordorderapp/homepage.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="425">
-                      <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+                    <state relative-caret-position="306">
+                      <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
                     </state>
                   </provider>
                 </entry>
@@ -171,7 +171,7 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/wordorderapp/templates/wordorderapp/successpage.html">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="459">
@@ -237,16 +237,16 @@
         <option value="$PROJECT_DIR$/amisitefinal/urls.py" />
         <option value="$PROJECT_DIR$/amisitefinal/settings.py" />
         <option value="$PROJECT_DIR$/wordorderapp/templates/wordorderapp/index.html" />
-        <option value="$PROJECT_DIR$/wordorderapp/static/wordorderapp/style.css" />
         <option value="$PROJECT_DIR$/wordorderapp/templates/wordorderapp/base.html" />
         <option value="$PROJECT_DIR$/amisitefinal/views.py" />
         <option value="$PROJECT_DIR$/wordorderapp/templates/wordorderapp/basehomepage.html" />
-        <option value="$PROJECT_DIR$/wordorderapp/templates/wordorderapp/homepage.html" />
         <option value="$PROJECT_DIR$/wordorderapp/templates/wordorderapp/logoutsuccesspage.html" />
-        <option value="$PROJECT_DIR$/wordorderapp/templates/wordorderapp/homepage1.html" />
-        <option value="$PROJECT_DIR$/wordorderapp/urls.py" />
         <option value="$PROJECT_DIR$/wordorderapp/views.py" />
         <option value="$PROJECT_DIR$/wordorderapp/templates/wordorderapp/successpage.html" />
+        <option value="$PROJECT_DIR$/wordorderapp/urls.py" />
+        <option value="$PROJECT_DIR$/wordorderapp/static/wordorderapp/style.css" />
+        <option value="$PROJECT_DIR$/wordorderapp/templates/wordorderapp/homepage.html" />
+        <option value="$PROJECT_DIR$/wordorderapp/templates/wordorderapp/homepage1.html" />
       </list>
     </option>
   </component>
@@ -482,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordorderapp/static/wordorderapp/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordorderapp/templates/wordorderapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -551,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordorderapp/templates/wordorderapp/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordorderapp/templates/wordorderapp/logout_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -569,13 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordorderapp/templates/wordorderapp/homepage1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -603,10 +582,31 @@
     <entry file="file://$PROJECT_DIR$/wordorderapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordorderapp/templates/wordorderapp/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordorderapp/static/wordorderapp/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordorderapp/templates/wordorderapp/homepage1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
     </entry>
