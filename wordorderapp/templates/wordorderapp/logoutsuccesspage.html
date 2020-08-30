@@ -1,0 +1,16 @@
+
+{% extends 'wordorderapp/basehomepage.html' %}
+
+
+{% block body %}
+
+<div class="container-2">
+    <div class="box-0"><h2>You have successfully logged out!</h2></div>
+</div>
+
+<div class="box-1">
+        <a href="{% url 'wordorderapp:login' %}"><h3>Log in to Access Work Order Site</h3></a>
+</div>
+
+
+{% endblock %}

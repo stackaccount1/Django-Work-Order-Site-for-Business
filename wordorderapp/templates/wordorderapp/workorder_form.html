@@ -1,0 +1,14 @@
+{% extends 'wordorderapp/base.html' %}
+{% block title %}Add a New Monthly Task{% endblock %}
+{% block months_active %}active{% endblock %}
+{% block body %}
+<h1>Create Work Order</h1>
+<h2></h2>
+<form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+        <input type="submit" value="Save"/>
+</form>
+
+{% endblock %}

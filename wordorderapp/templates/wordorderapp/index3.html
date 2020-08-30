@@ -1,0 +1,14 @@
+
+{% extends 'wordorderapp/base.html' %}
+
+
+{% block body %}
+
+
+{% for object in object_list %}
+
+{{ object.addressnumber }} {{ object.addressstreet }} <a href="{% url 'wordorderapp:detail' object.id %}"> Work Order Information </a>
+
+{% endfor %}
+
+{% endblock %}

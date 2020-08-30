@@ -1,0 +1,19 @@
+
+{% extends 'wordorderapp/base.html' %}
+
+
+{% block body %}
+
+
+
+<form method='GET'>
+  <input type='text' name='q' value='{{ request.GET.q }}'>
+  <input class="button" type='submit' value="Search Profile">
+</form>
+
+{% for object in object_list %}
+<ul>
+{{ object.addressnumber }} {{ object.addressstreet }} <a href="{% url 'wordorderapp:detail' object.id %}"> Work Order Information </a>
+</ul>
+{% endfor %}
+{% endblock %}

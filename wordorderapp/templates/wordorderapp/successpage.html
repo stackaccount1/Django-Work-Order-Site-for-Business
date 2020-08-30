@@ -1,0 +1,27 @@
+
+{% extends 'wordorderapp/base.html' %}
+
+
+{% block body %}
+
+
+
+{% if user.is_authenticated %}
+<div class="container-2">
+    <div class="0box-0"><h3>Congrats, you are logged in!<h3></div>
+</div>
+
+<div class="container-1">
+    <div class="box-1">
+        <a href="{% url 'wordorderapp:index' %}"><h3>Go to my work orders</h3></a>
+    </div>
+    <div class="box-2">
+        <a href="https://docs.google.com/spreadsheets/d/1Wr9eAgGghuWDC090Zw3I3WiSgdfI75h_eivY15AbIqM/edit?usp=sharing"><h3>Lawn Spreadsheet</h3></a>
+    </div>
+    <div class="box-3">
+        <a href="www.google.com"><h3>Employee Handbook</h3></a>
+    </div>
+</div>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,67 @@
+
+{% extends 'wordorderapp/base.html' %}
+
+{% block body %}
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Address Number</th>
+      <th>Street</th>
+      <th>Town</th>
+      <th>State</th>
+      <th>LockBox</th>
+      <th>Task Assigned Date</th>
+      <th>Client</th>
+      <th>Client Email Info</th>
+      <th>Description</th>
+      <th>Proposal Number</th>
+      <th>Technicians Notes</th>
+      <th>Complete?</th>
+      <th>Technician</th>
+      <th>Invoice Sent?</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>{{ object.addressnumber }}</td>
+        <td>{{ object.addressstreet }}</td>
+        <td>{{ object.addresstown }}</td>
+        <td>{{ object.addressstate }}</td>
+        <td>{{ object.lockboxcode }}</td>
+        <td>{{ object.taskdatestart }}</td>
+        <td>{{ object.client }}</td>
+        <td>{{ object.clientemailinfo }}</td>
+        <td>{{ object.description }}</td>
+        <td>{{ object.proposalorestimatenumber }}</td>
+        <td>{{ object.techniciancompletionnotes }}</td>
+        <td>{{ object.taskcomplete }}</td>
+        <td>{{ object.user }}</td>
+        <td>{{ object.invoicesent }}</td>
+      </tr>
+  </tbody>
+</table>
+
+{% if is_paginated %}
+  <ul class="pagination">
+    {% if page_obj.has_previous %}
+      <li><a href="?page={{ page_obj.previous_page_number }}">&laquo;</a></li>
+    {% else %}
+      <li class="disabled"><span>&laquo;</span></li>
+    {% endif %}
+    {% for i in paginator.page_range %}
+      {% if page_obj.number == i %}
+        <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+      {% else %}
+        <li><a href="?page={{ i }}">{{ i }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% if page_obj.has_next %}
+      <li><a href="?page={{ page_obj.next_page_number }}">&raquo;</a></li>
+    {% else %}
+      <li class="disabled"><span>&raquo;</span></li>
+    {% endif %}
+  </ul>
+{% endif %}
+
+{% endblock %}
